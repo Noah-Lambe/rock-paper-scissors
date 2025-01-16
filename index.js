@@ -1,7 +1,7 @@
 // node index.js rock, paper or scissors
 const process = require("process");
 
-const validOptions = ["rock", "paper", "scissors"];
+const validOptions = ["rock", "paper", "scissors", "laser"];
 const arguments = process.argv.slice(2);
 const userChoice = arguments[0];
 const computerChoice =
@@ -15,7 +15,8 @@ const determineWinner = (playerInput, computerInput) => {
   if (
     (playerInput === "rock" && computerInput === "scissors") ||
     (playerInput === "scissors" && computerInput === "paper") ||
-    (playerInput === "paper" && computerInput === "rock")
+    (playerInput === "paper" && computerInput === "rock") ||
+    (playerInput === "laser" && computerInput === "rock")
   ) {
     return "Player wins!";
   }
