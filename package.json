@@ -1,0 +1,11 @@
+{
+  "name": "rock_paper_scissors-",
+  "version": "1.0.0",
+  "description": "Allows use to play rock, paper, scissors against a computer from the terminal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noah Lambe",
+  "license": "MIT"
+}
